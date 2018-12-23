@@ -1,0 +1,9 @@
+{
+  "extends": ["tslint-config-airbnb"],
+  "rules": {
+    "max-line-length": [true, 150],
+    "import-name": false,
+    "variable-name": [true, "allow-pascal-case"],
+    "align": false
+  }
+}
