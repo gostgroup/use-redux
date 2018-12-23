@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Store } from 'redux';
 import shallowequal from 'shallowequal';
 

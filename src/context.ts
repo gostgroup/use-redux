@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Store, createStore } from 'redux';
 
 const reduxContext = React.createContext<Store>(createStore((s = {}) => s));
