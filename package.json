@@ -1,6 +1,6 @@
 {
   "name": "@gostgroup/use-redux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React hooks (still in preview) for redux integration",
   "files": [
     "lib"
