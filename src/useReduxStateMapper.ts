@@ -8,7 +8,7 @@ import { reduxContext } from './context';
  * Используется в случае, если useReduxStateSelector не подходит.
  * Аналог mapStateToProps из react-redux
  */
-const useReduxStateMapper = <T extends {}, R extends {}>(
+const useReduxStateMapper = <T extends {}, R>(
   mapState: (state: T) => R,
 ) => {
   const store = React.useContext<Store<T>>(reduxContext);
