@@ -1,10 +1,11 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
-import { useReduxDispatcher, StoreProvider, useReduxStateMapper } from '../src/index';
+import { useReduxDispatcher, StoreProvider, useReduxStateMapper, useReduxStoreInstance } from '../src/index';
 import { createStore } from 'redux';
 
 const App: React.FC = () => {
   const dispatch = useReduxDispatcher();
+  const store = useReduxStoreInstance();
   const value = useReduxStateMapper((s: { a: number }) => s);
   const a = useReduxStateMapper((s: { a: number }) => s.a);
 
@@ -12,6 +13,8 @@ const App: React.FC = () => {
     setInterval(() => {
       dispatch({ type: 'action' });
     }, 1000);
+
+    console.log('store', store);
   }, []);
 
   return (
