@@ -1,5 +1,14 @@
 # Redux in React without "wrapper hell"
 
+## Warning about versions
+
+Versions keep syncs with react package version suffixes (alpha, beta).
+
+For example:
+> @gostgroup/use-redux@1.0.3-alpha.2 <=> react@16.7.0-alpha.2
+>
+> @gostgroup/use-redux@1.1.0-alpha.1 <=> react@16.8.0-alpha.1
+
 ## About library
 
 React hooks (still in preview) for redux integration.
