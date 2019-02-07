@@ -1,20 +1,12 @@
 # Redux in React without "wrapper hell"
 
-## Warning about versions
-
-Versions keep syncs with react package version suffixes (alpha, beta).
-
-For example:
-> @gostgroup/use-redux@1.0.3-alpha.2 <=> react@16.7.0-alpha.2
->
-> @gostgroup/use-redux@1.1.0-alpha.1 <=> react@16.8.0-alpha.1
-
 ## About library
 
-React hooks (still in preview) for redux integration.
-> ⚠️ Warning for a production usage ⚠️
+React hooks for redux integration.
+> ⚠️ Warning for a usage ⚠️
 >
-> Use it library carefully because React Hooks API is not released yet (still in preview).
+> Use it library carefully because current React Context API has some limitations for outer data subscribtions.
+> More info here: [#14110 Provide more ways to bail out inside Hooks](https://github.com/facebook/react/issues/14110#issuecomment-458556208).
 
 ## API
 

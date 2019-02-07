@@ -1,7 +1,7 @@
 {
   "name": "@gostgroup/use-redux",
-  "version": "1.2.1-alpha.1",
-  "description": "React hooks (still in preview) for redux integration",
+  "version": "1.3.0",
+  "description": "React hooks for redux integration",
   "files": [
     "lib"
   ],
@@ -32,12 +32,10 @@
     "url": "https://github.com/gostgroup/use-redux/issues"
   },
   "homepage": "https://github.com/gostgroup/use-redux#readme",
-  "peerDependencies": {
-    "react": "16.8.0-alpha.1",
-    "react-dom": "16.8.0-alpha.1",
-    "redux": "^4.0.0"
-  },
   "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "redux": "^4.0.0",
     "shallowequal": "^1.1.0"
   },
   "devDependencies": {
@@ -45,9 +43,6 @@
     "@types/react-dom": "^16.0.11",
     "@types/shallowequal": "^1.1.0",
     "@types/redux-logger": "^3.0.6",
-    "react": "16.8.0-alpha.1",
-    "react-dom": "16.8.0-alpha.1",
-    "redux": "^4.0.0",
     "cross-env": "^5.1.6",
     "parcel-bundler": "^1.8.1",
     "redux-logger": "^3.0.6",
